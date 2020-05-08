@@ -1,11 +1,11 @@
 # Site settings
 author: Michael Bade
-title: 
+title: badeBugTechie
 header-img: img/home-bg.png
 email: mbade314@gmail.com
 copyright_name: Michael Bade
 description: > # this means to ignore newlines until "baseurl:"
-  
+  From Music to Software Engineering
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  mbade1
