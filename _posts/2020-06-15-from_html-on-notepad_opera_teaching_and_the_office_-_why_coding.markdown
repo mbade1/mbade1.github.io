@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "From HTML-On-Notepad, Opera, Teaching, and *The Office* - Why Coding?"
-date:       2020-06-15 05:02:50 +0000
+title:      "From HTML-On-Notepad, Opera, Teaching, and The Office: Why Coding?"
+date:       2020-06-15 01:02:51 -0400
 permalink:  from_html-on-notepad_opera_teaching_and_the_office_-_why_coding
 ---
 
