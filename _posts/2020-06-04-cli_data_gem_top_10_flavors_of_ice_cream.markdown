@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI DATA GEM: Top 10 Flavors of Ice Cream!"
-date:       2020-06-04 21:26:42 +0000
+date:       2020-06-04 17:26:42 -0400
 permalink:  cli_data_gem_top_10_flavors_of_ice_cream
 ---
 
@@ -48,4 +48,6 @@ Scraping isn't too bad, honestly. I got to work on this class, found the necessa
 
 **Conclusion**
 
-To say this project was "easy" or that the code laid itself out to me would be an understatement. I'm proud of the hard work that went into this project. There were moments of understanding with my code, and moments where I was saying, "What the heck is going on?!"  I definitely learned a LOT throughout this project, and I know the habits I learned from this project has set me up for future success. Just remember, no matter what, when code gives you errors, eat some ice cream!http://)
+To say this project was "easy" or that the code laid itself out to me would be an understatement. I'm proud of the hard work that went into this project. There were moments of understanding with my code, and moments where I was saying, "What the heck is going on?!"  I definitely learned a LOT throughout this project, and I know the habits I learned from this project has set me up for future success. Just remember, no matter what, when code gives you errors, eat some ice cream!
+
+GitHub Repo: https://github.com/mbade1/blue_bell_final
