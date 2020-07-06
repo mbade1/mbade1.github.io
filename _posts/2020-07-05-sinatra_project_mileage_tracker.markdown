@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "SINATRA Project: Mileage Tracker"
-date:       2020-07-06 02:08:57 +0000
+date:       2020-07-05 22:08:58 -0400
 permalink:  sinatra_project_mileage_tracker
 ---
 
@@ -25,3 +25,5 @@ After moving the second line, ```run ApplicationController``` to the bottom of t
 This was a very fun project, and it was a joy to see how Ruby logic plays into web app design. Before this project, Ruby was always a separate entity from the web page itself. Exploring and learning about ERB has totally blown my mind and changed the way I think about web programming. As I was working on this project, I thought about the many ways this app can be enhanced even further. I would love to get back into this project at some point and add other features, such as image uploads for each pair of shoes, and an individual run log. To dive even deeper, linking an apple watch app to a user account for each run would add even more detail and less human error in recording runs. With web design/software engineering, the possibilities truly seem endless!
 
 **"Don't stop when you are tired. Stop when you are done."** - Unknown
+
+GitHub Repo: https://github.com/mbade1/mileage_tracker
