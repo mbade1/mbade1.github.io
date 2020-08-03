@@ -28,12 +28,10 @@ After establishing my Models and Schema, it was time to get started with Resourc
 Every Model has some form associated with it - logging in, signing up, new playdates, new comments, editing comments, editing playdates... and the list continues. At first, I was having issues with these forms, because some of these forms were nested, while others weren't. I kept getting errors for these pages, because I wasn't passing in the id for each parent resource. For instance, for each new Playdate, I had:
 
   ```<%= form_for (@playdate) do |f| %>```
-  ```<%= f.label :date %>...```
 	
 	This was causing errors since my route for a new playdate was nested under parks. The above form would have worked perfectly fine for a new_playdates_path. However, our form needed to line up with new_PARKS_playdates_path, taking in the argument of the park and the new playdate. So, the form needed to take in two arguments:
 	
 	```<%= form_for ([@park, @playdate]) do |f| %>```
-  ```<%= f.label :date %>```
 	
 	This was a common error I was getting with multiple nested forms, and after discovering the answer to this error, my forms were being posted correctly, without errors. These new/edit forms were also refactored into a separate form file within each view folder.
 	
