@@ -37,23 +37,23 @@ Every Model has some form associated with it - logging in, signing up, new playd
 	
 	This was a common error I was getting with multiple nested forms, and after discovering the answer to this error, my forms were being posted correctly, without errors. These new/edit forms were also refactored into a separate form file within each view folder.
 	
-	## views/parks/show
+## views/parks/show
   
   The parks/show view started to quickly contain a LOT of code as the app grew. This page shows a table of the upcoming playdates, sorted in date order. It also shows the average review for each park. Then, it also has a reviews(comments) section with each individual user's rating of the park. To say this page started looking messing is an understatement...
 	
-	### Refactoring to the rescue!
+### Refactoring to the rescue!
 	
-	So, just like some of my forms this view needed some refactoring. I could have used a helper method for these, but within each block, I also had a good amount of HTML code. So, to keep the styling the same, I made three separate forms within views/parks: park_average_reviews, park_playdates_table, and park_reviews. These forms are there to help break up the code for this view, which makes views/parks/show move from 100 lines of code to only 17, and each form is in a smaller, digestable amount of code!
+So, just like some of my forms this view needed some refactoring. I could have used a helper method for these, but within each block, I also had a good amount of HTML code. So, to keep the styling the same, I made three separate forms within views/parks: park_average_reviews, park_playdates_table, and park_reviews. These forms are there to help break up the code for this view, which makes views/parks/show move from 100 lines of code to only 17, and each form is in a smaller, digestable amount of code!
 	
 ## Facebook OAuth
 	
-	To add more options for a user to login/signup, I added Facebook OAuth to my app. This process was fairly simple, all thanks to the omniauth and facebook-omniauth gems! As an added level of security, I used the dotenv-rails Gem, to hide the Key and Secret from Github and users. *Always do this, otherwise you're simply handing the keys to your Facebook profile... YIKES!*
+To add more options for a user to login/signup, I added Facebook OAuth to my app. This process was fairly simple, all thanks to the omniauth and facebook-omniauth gems! As an added level of security, I used the dotenv-rails Gem, to hide the Key and Secret from Github and users. *Always do this, otherwise you're simply handing the keys to your Facebook profile... YIKES!*
 	
 ## Make it look GREAT
 	
   After refactoring and making sure the logic and MVC structure was solid, we needed to make it *look* great. After working with just HTML for awhile, it was nice to add a fixed navbar with dynamic links, some stock images of dogs (I mean, who doesn't like looking at puppers and doggos?), Arial font family, and some styling for each table, list, and container. Even though your project may not *require* this, do it anyways.
 	
-	## Conclusion
+## Conclusion
 
   In Conclusion, I learned SO MUCH from this project. This project reaffirmed my understanding of the MVC structure for Rails and modern-day frameworks. Doing hands-on projects like this let me learn and relearn code that is standard in many CRUD-based web apps. If I had to redo this project, I would have thought about the structure of my routes FIRST, before starting to add forms to views. Rails is such an amazing Framework - sometimes it's "too good" and "guesses" your paths before you've written anything! I enjoyed every step of this process, and I can't wait for my project evaluation!!
 	
